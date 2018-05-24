@@ -398,3 +398,46 @@ ul.social-list li:nth-child(3) a:hover {
     color: #212226;
     outline: none;
 }
+
+/* ================================================
+                    Skills
+=================================================== */
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill h4 {
+    margin: 0;
+    line-height: 45px;
+    font-weight: normal;
+}
+
+.skill .progress {
+    height: 25px;
+    background: #f4f4f4;
+    border-radius: 0;
+    overflow: visible;
+}
+
+.progress-bar {
+    background: #f4c614;
+    position: relative;
+}
+
+.progress-bar span {
+    background: #212226;
+    position: absolute;
+    left: 100%;
+    top: -35px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    padding: 3px;
+}
+
+.progress-bar span:before {
+    content: '';
+    margin-top: 8px solid red;
+    margin-left: 6px solid transparent;
+    margin-right: 6px solid transparent;
+}
