@@ -140,6 +140,7 @@ section {
 /* ================================================
                     Buttons
 =================================================== */
+
 .btn-general {
     font-family: "Raleway", sans-serif;
     font-size: 13px;
@@ -147,7 +148,8 @@ section {
     border-radius: 28px;
     padding: 12px 46px 12px 46px;
     text-transform: uppercase;
-    -webkit-transform: all .5s;transform: all .5s;
+    -webkit-transform: all .5s;
+    transform: all .5s;
 }
 
 .btn-home {
@@ -155,7 +157,8 @@ section {
     border: 1px solid #f4c613;
 }
 
-.btn-home:hover, .btn-home:focus {
+.btn-home:hover,
+.btn-home:focus {
     color: #fff;
     background: #f4c613;
     border: 1px solid #f4c613;
@@ -164,6 +167,7 @@ section {
 /* ================================================
                     Arrow Down
 =================================================== */
+
 #arrow-down {
     color: #fff;
     position: absolute;
@@ -181,9 +185,11 @@ section {
 /* ================================================
                     Conten Boxes
 =================================================== */
+
 .content-box-lg {
     padding: 120px 0;
 }
+
 .content-box-md {
     padding: 100px 0;
 }
@@ -191,6 +197,7 @@ section {
 /* ================================================
                     Vertical Heading
 =================================================== */
+
 .vertical-heading h5 {
     color: #f4c613;
     font-size: 14px;
@@ -198,14 +205,15 @@ section {
     word-spacing: 9px;
     position: relative;
     top: 60px;
-    left: -60px;
+    left: -40px;
     display: inline-block;
-    -webkit-transform: rotate(-90deg); transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
     text-transform: uppercase;
 }
 
 .vertical-heading h2 {
-    margin: -10px 0 30px 40px;
+    margin: 0px 0 20px 40px;
     font-size: 42px;
     font-weight: 100;
     line-height: 45px;
@@ -214,12 +222,13 @@ section {
 /* ================================================
                     About 01
 =================================================== */
+
 #about-right p:first-child {
     margin-bottom: 20px;
 }
 
 #about-bottom {
-    margin-top: 30px;    
+    margin-top: 30px;
 }
 
 #about-bottom img {
@@ -229,6 +238,7 @@ section {
 /* ================================================
                     About 02
 =================================================== */
+
 #about-02 {
     background-color: #f4f4f4;
 }
@@ -240,11 +250,11 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
 }
 
-.about-item i{
+.about-item i {
     font-size: 42px;
 }
 
-.about-item h3{
+.about-item h3 {
     font-size: 28px;
     margin-bottom: 10px;
 }
@@ -262,19 +272,20 @@ section {
 }
 
 /* Hover Effects */
+
 .about-item:hover {
     background: #f4c613;
 }
 
 .about-item,
 .about-item i,
-.about-item hr{
+.about-item hr {
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
 }
 
-.about-item:hover i, 
-.about-item:hover h3, 
+.about-item:hover i,
+.about-item:hover h3,
 .about-item:hover p {
     color: #fff;
 }
@@ -283,22 +294,107 @@ section {
     background-color: #fff;
 }
 
-.about-item:hover i{
+.about-item:hover i {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px)
 }
 
+/* ================================================
+                    Team
+=================================================== */
 
+.team-member {
+    margin: 8px;
+    position: relative;
+}
 
+.team-member-overlay {
+    background: rgb(33, 34, 38, 0.9);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+}
 
+.team-member-info {
+    padding: 80px 0;
+}
 
+.team-member-info h6 {
+    color: #f4c613;
+    font-size: 16px;
+    margin: 0;
+}
 
+.team-member-info p {
+    color: #fff;
+}
 
+.team-member:hover .team-member-overlay {
+    opacity: 1;
+}
 
+/* ================================================
+                    Social Icons
+=================================================== */
 
+#team-left .vertical-heading h2 {
+    min-height: 90px;
+}
 
+ul.social-list {
+    padding: 0;
+    margin-top: 20px;
+    overflow: hidden;
+}
 
+ul.social-list li {
+    display: inline-block;
+    padding: 0;
+}
 
+ul.social-list li a {
+    border: 1px solid #fff;
+    background: #262221;
+    padding: 0;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
 
+ul.social-list li:nth-child(1) a:hover {
+    background: #3b5998;
+    border-color: transparent;
+}
 
+ul.social-list li:nth-child(2) a:hover {
+    background: #00aced;
+    border-color: transparent;
+}
 
+ul.social-list li:nth-child(3) a:hover {
+    background: #dd4b39;
+    border-color: transparent;
+}
+
+.owl-theme .owl-nav [class*=owl-] {
+    background: none;
+    color: #212226;
+    font-size: 40px;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: none;
+    color: #212226;
+    outline: none;
+}
