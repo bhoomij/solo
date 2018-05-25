@@ -445,3 +445,52 @@ ul.social-list li:nth-child(3) a:hover {
     bottom: -7px;
     left: 25%;
 }
+
+/* ================================================
+                    Skills
+=================================================== */
+#statement {
+    background: url(../images/tech/tech-quote.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+#statement .content-box-lg {
+    background: rgba(0, 0, 0, 0.3);    
+}
+
+#statement h3 {
+    color: #fff;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+#statement p {
+    color: #f4c613;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
