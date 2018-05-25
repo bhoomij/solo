@@ -23,3 +23,20 @@ $(function () {
         navText: ['<i class="fa fa-angle-left fa-2x"></i>', '<i class="fa fa-angle-right fa-2x"></i>']
     });
 });
+
+/* ================================================
+                    Progress Bars
+=================================================== */
+$(function(){    
+     $("#progress-elements").waypoint(function() {
+            $(".progress-bar").each(function() {
+                $(this).animate({
+                    width: $(this).attr('aria-valuenow') + "%"
+                }, 1000);
+                $(".progress-bar span").css('display', 'block');
+            });
+            this.destroy();
+        }, {
+         offset: 'bottom-in-view'
+     });
+});

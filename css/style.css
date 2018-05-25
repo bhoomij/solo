@@ -428,16 +428,20 @@ ul.social-list li:nth-child(3) a:hover {
 .progress-bar span {
     background: #212226;
     position: absolute;
-    left: 100%;
-    top: -35px;
+    left: 97%;
+    top: -40px;
     font-family: 'Open Sans', sans-serif;
     font-size: 11px;
     padding: 3px;
+    display: none;
 }
 
-.progress-bar span:before {
+.progress-bar span::before {
     content: '';
-    margin-top: 8px solid red;
-    margin-left: 6px solid transparent;
-    margin-right: 6px solid transparent;
+    border-top: 8px solid #212226;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    bottom: -7px;
+    left: 25%;
 }
