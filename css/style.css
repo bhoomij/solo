@@ -195,21 +195,31 @@ section {
 }
 
 /* ================================================
-                    Vertical Heading
+                    Vertical/Horizontal Heading
 =================================================== */
-
 .vertical-heading h5 {
+    position: relative;
+    top: 60px;
+    left: -40px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.vertical-heading h5,
+.horizontal-heading h5 {
     color: #f4c613;
     font-size: 14px;
     font-weight: 500;
     word-spacing: 9px;
-    position: relative;
-    top: 60px;
-    left: -40px;
-    display: inline-block;
-    -webkit-transform: rotate(-90deg);
-    transform: rotate(-90deg);
     text-transform: uppercase;
+    display: inline-block;
+}
+
+.vertical-heading h2,
+.horizontal-heading h2 {
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 45px;
 }
 
 .vertical-heading h2 {
@@ -219,10 +229,21 @@ section {
     line-height: 45px;
 }
 
+.horizontal-heading {
+    margin-bottom: 80px;
+}
+
+.horizontal-heading h5 {
+    margin: 0 0 8px 0;
+}
+
+.horizontal-heading h2 {
+    margin: 0;
+}
+
 /* ================================================
                     About 01
 =================================================== */
-
 #about-right p:first-child {
     margin-bottom: 20px;
 }
@@ -471,12 +492,48 @@ ul.social-list li:nth-child(3) a:hover {
     margin-top: 5px;
 }
 
+/* ================================================
+                    Services 01
+=================================================== */
+#services img {
+    margin: 20px 20px;
+}
 
+.service {
+    margin-bottom: 20px;
+}
 
+.service .icon {
+/*    margin: 0;*/
+    font-size: 40px;
+    transition: all 0.4s linear;
+}
 
+.service:hover .icon {
+    color: #f4c613;
+    transform: translateX(-20px);
+}
 
+.service h5 {
+    color: #f4c613;
+    margin: 0 0 8px 0;
+    font-size: 18x;
+    line-height: 14px;
+    text-transform: uppercase;
+}
 
+.service:hover h5 {
+    color: #212226;
+}
 
+.service h4 {
+    color: #212226;
+    margin: 0 0 10px 0;
+}
+
+.service p {
+    line-height: normal;
+}
 
 
 
