@@ -164,6 +164,19 @@ section {
     border: 1px solid #f4c613;
 }
 
+.btn-yellow {
+    color: #fff;
+    background: #f4c613;
+    border: 1px solid #f4c613;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus {
+    color: #fff;
+    background: #212226;
+    border: 1px solid #212226;
+}
+
 /* ================================================
                     Arrow Down
 =================================================== */
@@ -495,7 +508,7 @@ ul.social-list li:nth-child(3) a:hover {
 /* ================================================
                     Services 01
 =================================================== */
-#services img {
+#services-01 img {
     margin: 20px 20px;
 }
 
@@ -506,11 +519,13 @@ ul.social-list li:nth-child(3) a:hover {
 .service .icon {
 /*    margin: 0;*/
     font-size: 40px;
+    -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
 
 .service:hover .icon {
     color: #f4c613;
+    -webkit-transform: translateX(-20px);
     transform: translateX(-20px);
 }
 
@@ -534,6 +549,79 @@ ul.social-list li:nth-child(3) a:hover {
 .service p {
     line-height: normal;
 }
+
+/* ================================================
+            Services 02 Responsive Tabs
+=================================================== */
+#services-02 {
+    background: #f4f4f4;
+}
+
+#services-02 ul {
+    margin-bottom: 30px;
+}
+
+#services-02 ul li {
+    padding: 6px 20px;
+}
+
+#services-tabs ul li a{
+    color: #212226;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* active tab */
+#services-tabs ul li.r-tabs-state-active a{
+    color: #f4c613; 
+    border-bottom: 2px solid #f4c613;
+    padding-bottom: 4px;
+    -webkit-transition: border-color 500 linear;
+    transition: border-color 500 linear;
+}
+
+.service-tab img {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%
+}
+
+.service-tab .col-md-6 {
+    padding: 0;
+}
+
+.service-tab .tab-bg {
+    background: #fff;
+    padding: 50px 30px;
+/*    box-sizing: border-box;*/
+    height: 481px;
+}
+
+.service-tab h2 {
+    color: #bbb;
+    margin-bottom: 20px;
+    font-weight: 100;
+}
+
+.service-tab h3 { 
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
