@@ -85,7 +85,21 @@ $(function() {
     });
 });
 
-
+/* ================================================
+                    Testimonials
+=================================================== */
+$(function () {
+    $("#testimonial-slider").owlCarousel({
+        items: 1,
+        autoplay: false,
+        loop: true,
+        dots: false,
+        nav: true,
+        smartSpeed: 700,
+        autoplayHoverPause: true,
+        navText: ['<i class="fa fa-angle-left fa-2x"></i>', '<i class="fa fa-angle-right fa-2x"></i>']
+    });
+});
 
 
 
