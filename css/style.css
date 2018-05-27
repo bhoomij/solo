@@ -610,7 +610,16 @@ ul.social-list li:nth-child(3) a:hover {
     margin-bottom: 20px;
 }
 
+/* ================================================
+                    Portfolio
+=================================================== */
+#portfolio .vertical-heading {
+    margin-bottom: 80px;
+}
 
+#portfolio .col-md-3 {
+    padding: 0;
+}
 
 
 
