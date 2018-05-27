@@ -109,7 +109,21 @@ $('.counter').counterUp({
     time: 1000, 
 });
 
-
+/* ================================================
+                        Clients
+=================================================== */
+$(function () {
+    $("#client-list").owlCarousel({
+        items: 6,
+        autoplay: true,
+        loop: true,
+        dots: false,
+        nav: true,
+        smartSpeed: 700,
+        autoplayHoverPause: true,
+        navText: ['<i class="fa fa-angle-left fa-2x"></i>', '<i class="fa fa-angle-right fa-2x"></i>']
+    });
+});
 
 
 
