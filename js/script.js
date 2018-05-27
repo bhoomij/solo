@@ -66,12 +66,24 @@ $(window).on("load", function() {
             filter: filterValue
         });
         
-        $("#isotope-filters").find('active').removeClass('active');
+        $("#isotope-filters").find('.active').removeClass('active');
         $(this).addClass('active');
     });
     
 });
 
+/* ================================================
+                Magnigic popup
+=================================================== */
+$(function() {
+    $('.portfolio-item').magnificPopup({
+        delegate: 'a',
+        type:'image',
+        gallery: {
+            enabled: true
+        },
+    });
+});
 
 
 
