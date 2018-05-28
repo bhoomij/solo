@@ -125,6 +125,29 @@ $(function () {
     });
 });
 
+/* ================================================
+                    Google Maps
+=================================================== */
+$(window).on('load', function() {
+    // The location
+    var location = {lat: 40.941587, lng: -73.895176};
+    var addressString = "203 Broadway, Yonkers, NY, USA";
+    
+    // The map, centered at location
+    var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 11, center: location});
+    // The marker, positioned at Uluru
+    var marker = new google.maps.Marker({position: location, map: map, title: "Click To See Address"}); 
+    
+    var infowindow = new google.maps.InfoWindow({
+        content: addressString
+    });
+    
+     marker.addListener('click', function() {
+        infowindow.open(map, marker);
+     });
+
+});
 
 
 
