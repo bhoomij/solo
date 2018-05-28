@@ -228,7 +228,7 @@ section {
 .vertical-heading h5 {
     position: relative;
     top: 60px;
-    left: -40px;
+    left: -30px;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
@@ -409,7 +409,6 @@ ul.social-list li {
 
 ul.social-list li a {
     border: 1px solid #fff;
-    background: #262221;
     padding: 0;
     display: inline-block;
     width: 35px;
@@ -950,6 +949,7 @@ ul.social-list li:nth-child(3) a:hover {
     color: #f4c613;
     font-size: 42px;
     margin: 0 0 6px 0;
+    -webkit-transform: all 0.4s linear;
     transform: all 0.4s linear; 
 }
 
@@ -1014,7 +1014,7 @@ ul.social-list li:nth-child(3) a:hover {
 .blog-post {
     background: #fff;
     padding: 20px;
-    border-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     border-radius: 6px;
 }
 
@@ -1059,15 +1059,64 @@ ul.social-list li:nth-child(3) a:hover {
     margin: 0;
 }
 
+/* ================================================
+                    Contact
+=================================================== */
+#contact-left p {
+    margin: 25px 0 20px 0;
+}
 
+#contact-left .vertical-heading h5 {
+    left: -58px;   
+}
 
+ul.office-details {
+    list-style: none;
+     padding: 0;   
+}
 
+ul.office-details li {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
 
+ul.office-details li i {
+    font-size: 20px;
+    width: 30px;
+}
 
+#contact-left ul.social-list li a {
+    color: #212226;
+    border: 1px solid #212226;
+    text-align: center;
+}
 
+#contact-left ul.social-list li a:hover {
+    border-color: transparent;
+    color: #fff;
+}
 
+#contact-right {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
 
+#contact-right p {
+    margin-bottom: 25px;
+}
 
+#contact-right form .form-control {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#contact-right form textarea.form-control {
+    min-height: 160px;
+}
 
 
 
