@@ -149,6 +149,54 @@ $(window).on('load', function() {
 
 });
 
+/* ================================================
+                    Navigation
+=================================================== */
+/* Show/hide white navigation */
+
+$(function() {
+    // show/hide on page load
+    showHideNav();
+    $(window).scroll(function() {
+        // show/hide on page scroll
+        showHideNav()
+    });
+    
+    function showHideNav() {
+        if( $(window).scrollTop() > 50 ) {
+            $("nav").addClass('white-nav-top');
+            $(".navbar-brand img").attr("src", "images/logo/logo-dark.png");
+        } 
+        else {
+            $("nav").removeClass('white-nav-top');
+            $(".navbar-brand img").attr("src", "images/logo/logo.png");
+        }
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

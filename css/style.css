@@ -1139,13 +1139,51 @@ footer p span {
     color: #f4c613;
 }
 
+/* ================================================
+                    Navigation
+=================================================== */
+.navbar {
+    padding: 35px 0 20px 0;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
 
+.site-nav-wrapper {
+    padding: 0 85px;
+}
 
+.navbar-brand {
+    padding: 13px 12px;
+}
 
+.navbar-collapse li a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+}
 
+.navbar-collapse li a:hover,
+.navbar-collapse li a:focus,
+.white-nav-top .navbar-collapse li a:hover,
+.white-nav-top .navbar-collapse li a:focus {
+    background: transparent;
+    color: #f4c613;
+}
 
+.white-nav-top {
+    background: #fff;
+    padding: 10px 0;
+    -webkit-box-shadow: 0 6px 8px -9px #999;
+    box-shadow: 0 6px 8px -9px #999;
+    z-index: 2;
+}
 
-
+.white-nav-top .navbar-collapse li a {
+    color: #212226;
+}
 
 
 
