@@ -223,12 +223,12 @@ section {
 }
 
 /* ================================================
-                    Vertical/Horizontal Heading
+            Vertical/Horizontal Heading
 =================================================== */
 .vertical-heading h5 {
     position: relative;
     top: 60px;
-    left: -30px;
+    left: -53px;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
@@ -1066,13 +1066,9 @@ ul.social-list li:nth-child(3) a:hover {
     margin: 25px 0 20px 0;
 }
 
-#contact-left .vertical-heading h5 {
-    left: -58px;   
-}
-
 ul.office-details {
     list-style: none;
-     padding: 0;   
+    padding: 0;   
 }
 
 ul.office-details li {
@@ -1126,8 +1122,22 @@ ul.office-details li i {
     width: 100%;
 }
 
+/* ================================================
+                    Footer
+=================================================== */
+footer {
+    background: #212226;
+    padding: 20px;
+}
 
+footer p {
+    color: #fff;
+    line-height: 20px;
+}
 
+footer p span {
+    color: #f4c613;
+}
 
 
 
