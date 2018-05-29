@@ -165,16 +165,26 @@ $(function() {
     function showHideNav() {
         if( $(window).scrollTop() > 50 ) {
             $("nav").addClass('white-nav-top');
-            $(".navbar-brand img").attr("src", "images/logo/logo-dark.png");
+            $(".navbar-brand img").attr("src", "../images/logo/logo-dark.png");
+            $("#back-to-top").fadeIn();
         } 
         else {
             $("nav").removeClass('white-nav-top');
-            $(".navbar-brand img").attr("src", "images/logo/logo.png");
+            $(".navbar-brand img").attr("src", "../images/logo/logo.png");
+            $("#back-to-top").fadeOut();
         }
     }
 })
 
-
+$(function() {
+    $("a.smooth-scroll").click(function(event) {
+        event.preventDefault();
+        var section_id = $(this).attr("href");
+        $('html, body').animate(function() {
+           scrollTop: $(section_id).offset().top - 64
+        });
+    }, 1250);
+})
 
 
 

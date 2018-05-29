@@ -188,6 +188,17 @@ section {
     background: #212226;
     border: 1px solid #212226;
 }
+
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 0px 12px;
+    border-right: 4px;
+    display: none;
+}
+
 /* ================================================
                     Arrow Down
 =================================================== */
@@ -1183,6 +1194,12 @@ footer p span {
 
 .white-nav-top .navbar-collapse li a {
     color: #212226;
+}
+
+.navbar-collapse li.active a,
+.white-nav-top .navbar-collapse li.active a {
+    color: #f4c613;
+    font-weight: 500;
 }
 
 
