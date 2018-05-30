@@ -47,6 +47,24 @@
     }
     
     /* Home */
+    #home-heading h1 {
+        font-size: 41px;
+    }
+    #home-text p {
+        fontsiz: 14px;;   
+    }
+    
+    /* Generic */
+    .btn-general {
+        padding: 8px 35px;;
+        font-size: 12px;
+    }
+    
+    /* Vertical Heading */
+    .vertical-heading h2 {
+        font-size: 32px;
+    }
+
 }
 
 /* Extra Small Devices ( Landscape Phones and Portrait Tablet) */
