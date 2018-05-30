@@ -41,7 +41,12 @@
 
 /* Small Devices ( Portrait Tablets and Small Desktops) */
 @media (min-width: 768px) and (max-width: 991px) {
+    /* Navigation */
+    .site-nav-wrapper {
+        padding: 0;   
+    }
     
+    /* Home */
 }
 
 /* Extra Small Devices ( Landscape Phones and Portrait Tablet) */
