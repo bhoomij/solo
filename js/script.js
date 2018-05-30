@@ -155,7 +155,6 @@ $(window).on('load', function() {
 /* Show/hide white navigation */
 
 $(function() {
-    console.log('will change on ready')
     $("#logo-img").attr("src", "images/logo/logo-dark.png");
    
     // show/hide on page load
@@ -173,7 +172,6 @@ $(function() {
         } 
         else {
             $("nav").removeClass('white-nav-top');
-            console.log('change to normal' )
             $("#logo-img").attr("src", "images/logo/logo.png");
             $("#back-to-top").fadeOut();
         }
