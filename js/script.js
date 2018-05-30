@@ -20,7 +20,17 @@ $(function () {
         nav: true,
         smartSpeed: 700,
         autoplayHoverPause: true,
-        navText: ['<i class="fa fa-angle-left fa-2x"></i>', '<i class="fa fa-angle-right fa-2x"></i>']
+        navText: ['<i class="fa fa-angle-left fa-2x"></i>', '<i class="fa fa-angle-right fa-2x"></i>'],
+        responsive :{
+            // breakpoint 0 and up
+            0: {
+                items:1
+            },
+            // breakpoint 480 and up
+            480: {
+                items:2
+            }
+        }
     });
 });
 
