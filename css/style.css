@@ -239,7 +239,7 @@ section {
 .vertical-heading h5 {
     position: relative;
     top: 60px;
-    left: -53px;
+    left: -45px;
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
 }
@@ -620,8 +620,7 @@ ul.social-list li:nth-child(3) a:hover {
 .service-tab .tab-bg {
     background: #fff;
     padding: 50px 30px;
-/*    box-sizing: border-box;*/
-    height: 481px;
+    min-height: 481px;
 }
 
 .service-tab h2 {

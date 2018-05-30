@@ -1,0 +1,50 @@
+/* ================================================
+            Bootstrap 3 Media Queries
+=================================================== */
+
+/* Large Devices ( Desktops and Laptops) */
+@media (min-width: 1200px) and (max-width: 1289px) {
+    
+    /* Navigation */
+    .site-nav-wrapper {
+        padding: 0 20px;   
+    }
+}
+
+/* Medium Devices ( Medium Desktops and Landscape Tablets) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Navigation */
+    .site-nav-wrapper {
+        padding: 0;   
+    }
+    
+    /* Headings */
+    .vertical-heading h2,
+    .horizontal-heading h2 {
+        font-size: 26px;
+    }
+    
+    /* Services 02 */
+    .service-tab .tab-bg {
+        padding: 20px 30px;
+        min-height: 400px;
+    }
+    
+    .service-tab p {
+        line-height: 20px;   
+    }
+    
+    .service-tab {
+        min-height: 
+    }
+}
+
+/* Small Devices ( Portrait Tablets and Small Desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/* Extra Small Devices ( Landscape Phones and Portrait Tablet) */
+@media (max-width: 767px) {
+    
+}
