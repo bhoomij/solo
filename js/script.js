@@ -155,6 +155,9 @@ $(window).on('load', function() {
 /* Show/hide white navigation */
 
 $(function() {
+    console.log('will change on ready')
+    $("#logo-img").attr("src", "images/logo/logo-dark.png");
+   
     // show/hide on page load
     showHideNav();
     $(window).scroll(function() {
@@ -165,12 +168,13 @@ $(function() {
     function showHideNav() {
         if( $(window).scrollTop() > 50 ) {
             $("nav").addClass('white-nav-top');
-            $(".navbar-brand img").attr("src", "../images/logo/logo-dark.png");
+            $("#logo-img").attr("src", "images/logo/logo-dark.png");
             $("#back-to-top").fadeIn();
         } 
         else {
             $("nav").removeClass('white-nav-top');
-            $(".navbar-brand img").attr("src", "../images/logo/logo.png");
+            console.log('change to normal' )
+            $("#logo-img").attr("src", "images/logo/logo.png");
             $("#back-to-top").fadeOut();
         }
     }
