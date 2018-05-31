@@ -788,6 +788,7 @@ ul.social-list li:nth-child(3) a:hover {
 .testimonial h3 {
     font-size: 32px;
     line-height: 32px;
+    margin: 0;
 }
 .testimonial p {
     line-height: normal;
