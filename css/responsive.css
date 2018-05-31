@@ -82,7 +82,7 @@
         font-weight: 500;
         text-decoration: none;
     }
-    .r-tabs-state-active a{
+    .r-tabs-accordion-title.r-tabs-state-active a{
         color: #f4c613; 
         border-bottom: 2px solid #f4c613;
         padding-bottom: 4px;
@@ -231,7 +231,7 @@
         font-weight: 500;
         text-decoration: none;
     }
-    .r-tabs-accordion-title .r-tabs-state-active a{
+    .r-tabs-accordion-title.r-tabs-state-active a {
         color: #f4c613; 
         border-bottom: 2px solid #f4c613;
         padding-bottom: 4px;
@@ -251,10 +251,13 @@
     
     /* Portfolio */
     #portfolio {
-        padding-bottom: 0;
+        padding: 0;
+    }
+    #portfolio .vertical-heading {
+        margin-bottom: 40px;
     }
     #isotope-filters button {
-        padding-right: 10px;
+        margin-right: 10px;
     }
 
     /* Testimonial */
@@ -280,18 +283,116 @@
         width: 80px !important;
     }
     
+    /* Pricing */
+    .pricing-table {
+        margin-bottom: 30px;
+    }
+    .pricing-table .price h2 {
+        font-size: 30px;
+    }
     
+    /* Stats */
+    .stats-item {
+        margin-bottom: 30px;   
+    }
     
+    .stats-item h3 {
+        font-size: 26px;
+    }
     
+    /* Blog */
+    .blog-left {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .blog-post {
+        margin-bottom: 25px;
+    }
     
+    /* Contact */
+    #contact-left {
+        text-align: center;
+    }
+    .office {
+        margin-bottom: 30px;
+    }
+    ul.office-details li {
+        display: block;
+        margin-bottom: 10px;
+    }
     
+    ul.office-details li i {
+        width: auto;
+        display: block;
+    }
     
+    .office h4 {
+        font-weight: 600;
+    }
     
+    ul.social-list {
+        margin-bottom: 60px;
+    }   
+}
+
+@media (max-width: 500px) {
+    .stats-item h3 {
+        font-size: 20px;
+    }
+    .stats-item p {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Home */
+    #home-heading h1 {
+        font-size: 18px;
+    }
+    #home-text p {
+        font-size: 11px;   
+        line-height: 12px;
+        margin: 8px 2px 30px 2px;
+    }
     
+    /* Generic */
+    .btn-general {
+        padding: 6px 18px;
+        font-size: 12px;
+    }
+    .vertical-heading h2 {
+        font-size: 24px
+    }
+    .horizontal-heading h2 {
+        font-size: 24px
+    }
     
+    /* Portfolio */
+    #isotope-filters {
+        text-align: center;
+    }
+    #isotope-filters button {
+        font-size: 10px;
+        margin-right: 14px !important;
+    }
     
-    
-    
-    
-    
+    /* Testimonials */
+    .testimonial h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .testimonial .stars {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Testimonials */
+    .testimonial h3 {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .testimonial .stars {
+        font-size: 10px;
+    }
 }
