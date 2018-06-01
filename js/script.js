@@ -174,6 +174,12 @@ $(window).on('load', function() {
      marker.addListener('click', function() {
         infowindow.open(map, marker);
      });
+    
+    gootle.maps.event.addDomListerner(window, 'resize', function() {
+        var center = map.getCenter();
+        google.maps.trigger(map, 'resize')
+        map.setCenter(center);
+    })
 
 });
 
@@ -215,35 +221,3 @@ $(function() {
         });
     }, 1250);
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
