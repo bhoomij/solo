@@ -15,8 +15,9 @@
     cursor: pointer;
 }
 #mobile-nav {
+    /* By default mobile menu will be hidden with height 0% */
+    height: 0%;
     width: 100%;
-    height: 100%;
     position: fixed;
     top: 0;
     left: 0;
@@ -26,7 +27,6 @@
     transition: all 0.3s linear;
     overflow-y: hidden;
 }
-
 #mobile-nav-close-btn {
     font-size: 60px;
     font-family: 'Raleway', sans-serif;
@@ -38,6 +38,12 @@
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
+
+/* To align close button on open button for white navigation */
+.white-nav-top #mobile-nav-close-btn {
+    top:-20px;   
+}
+
 #mobile-nav-content {
     text-align: center;
     margin-top: 30px;

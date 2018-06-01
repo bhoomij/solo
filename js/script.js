@@ -221,3 +221,25 @@ $(function() {
         });
     }, 1250);
 })
+
+/* ================================================
+                    Mobile Menu
+=================================================== */
+$(function() {
+    // Show mobile menu
+    $("#mobile-nav-open-btn").click(function() {
+        $("#mobile-nav").css('height', '100%');
+    });
+    // Hide mobile menu
+    $("#mobile-nav-close-btn, #mobile-nav a").click(function() {
+        $("#mobile-nav").css('height', '0%');
+    });
+})
+
+
+
+
+
+
+
+
