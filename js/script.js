@@ -175,7 +175,7 @@ $(window).on('load', function() {
         infowindow.open(map, marker);
      });
     
-    gootle.maps.event.addDomListerner(window, 'resize', function() {
+    google.maps.event.addDomListener(window, 'resize', function() {
         var center = map.getCenter();
         google.maps.trigger(map, 'resize')
         map.setCenter(center);
@@ -218,8 +218,8 @@ $(function() {
         var section_id = $(this).attr("href");
         $('html, body').animate(function() {
            scrollTop: $(section_id).offset().top - 64
-        });
-    }, 1250);
+        }, 1250);
+    });
 })
 
 /* ================================================
@@ -235,11 +235,5 @@ $(function() {
         $("#mobile-nav").css('height', '0%');
     });
 })
-
-
-
-
-
-
 
 
