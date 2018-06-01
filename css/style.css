@@ -461,6 +461,11 @@ ul.social-list li:nth-child(3) a:hover {
                     Skills
 =================================================== */
 
+/* remove padding from bootstrap class col-* to vertical align
+preogress elements with top content */
+#progress-elements [class*=col-] {
+    padding-left: 0 !important;
+}
 .skill {
     margin-bottom: 20px;
 }
@@ -771,13 +776,13 @@ ul.social-list li:nth-child(3) a:hover {
 }
 
 #testimonials .vertical-heading {
-    padding: 80px 0;
+    padding: 60px 0;
     margin-bottom: 50px;
 }
 
 #testimonial-slider {
     background: #f4c613;
-    top: -120px;
+    top: -80px;
 }
 
 .testimonial {
@@ -794,9 +799,8 @@ ul.social-list li:nth-child(3) a:hover {
     line-height: normal;
     margin: 10px 0 20px 0;
 }
-
 .author .author-name-des {
-    widows: 110px;
+    width: 110px;
     margin: 0;
     margin-top: 5px;
     margin-bottom: 20px;
@@ -1126,6 +1130,10 @@ ul.office-details li i {
     min-height: 160px;
 }
 
+#contact-right {
+    text-align: center;
+}
+
 /* ================================================
                 Google Map
 =================================================== */
@@ -1180,7 +1188,6 @@ footer p span {
     text-transform: uppercase;
     color: #fff;
 }
-
 .navbar-collapse li a:hover,
 .navbar-collapse li a:focus,
 .white-nav-top .navbar-collapse li a:hover,
@@ -1188,7 +1195,6 @@ footer p span {
     background: transparent;
     color: #f4c613;
 }
-
 .white-nav-top {
     background: #fff;
     padding: 10px 0;
@@ -1196,11 +1202,9 @@ footer p span {
     box-shadow: 0 6px 8px -9px #999;
     z-index: 2;
 }
-
 .white-nav-top .navbar-collapse li a {
     color: #212226;
 }
-
 .navbar-collapse li.active a,
 .white-nav-top .navbar-collapse li.active a {
     color: #f4c613;
