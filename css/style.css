@@ -1211,8 +1211,31 @@ footer p span {
     font-weight: 500;
 }
 
-
-
+/* ================================================
+                    Animation
+=================================================== */
+#home-heading1,
+#home-heading2,
+#home-text,
+#home-btn,
+#arrow-down {
+    animation-duration: 1.5s;    
+}
+#home-heading1 {
+    animation-delay: 1s;
+}
+#home-heading2 {
+    animation-delay: 1.5s;
+}
+#home-text {
+    animation-delay: 2s;
+}
+#home-btn {
+    animation-delay: 2.5s;
+}
+#arrow-down {
+    animation-delay: 3s;
+}
 
 
 
