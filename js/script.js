@@ -177,7 +177,7 @@ $(window).on('load', function() {
     
     google.maps.event.addDomListener(window, 'resize', function() {
         var center = map.getCenter();
-        google.maps.trigger(map, 'resize')
+        google.maps.event.trigger(map, 'resize')
         map.setCenter(center);
     })
 
@@ -216,7 +216,7 @@ $(function() {
     $("a.smooth-scroll").click(function(event) {
         event.preventDefault();
         var section_id = $(this).attr("href");
-        $('html, body').animate(function() {
+        $('html, body').animate({
            scrollTop: $(section_id).offset().top - 64
         }, 1250);
     });
