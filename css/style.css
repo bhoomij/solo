@@ -358,6 +358,12 @@ section {
     transform: translateY(-20px)
 }
 
+.about-item h3,
+.about-item p {
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
 /* ================================================
                     Team
 =================================================== */
@@ -710,14 +716,13 @@ preogress elements with top content */
     opacity: 0;
     -webkit-transform: all 0.5s ease;
     transform: all 0.5s ease;
+    cursor: pointer;
 }
 
 .portfolio-items-details {
     position: absolute;
     top: 50%;
     width: 100%;
-    cursor: -webkit-zoom-in;
-    cursor: zoom-in;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
 }
@@ -1030,7 +1035,7 @@ preogress elements with top content */
     padding: 20px;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 .blog-post h4 {
@@ -1153,6 +1158,7 @@ footer {
 footer p {
     color: #fff;
     line-height: 20px;
+    margin: 0;
 }
 
 footer p span {
@@ -1219,21 +1225,27 @@ footer p span {
 #home-text,
 #home-btn,
 #arrow-down {
+    -webkit-animation-duration: 1.5s;
     animation-duration: 1.5s;    
 }
 #home-heading1 {
+    -webkit-animation-delay: 1s;
     animation-delay: 1s;
 }
 #home-heading2 {
+    -webkit-animation-delay: 1.5s;
     animation-delay: 1.5s;
 }
 #home-text {
+    -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
 #home-btn {
+    -webkit-animation-delay: 2.5s;
     animation-delay: 2.5s;
 }
 #arrow-down {
+    -webkit-animation-delay: 3s;
     animation-delay: 3s;
 }
 

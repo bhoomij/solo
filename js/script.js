@@ -42,7 +42,7 @@ $(function(){
             $(".progress-bar").each(function() {
                 $(this).animate({
                     width: $(this).attr('aria-valuenow') + "%"
-                }, 1000);
+                }, 2000);
                 $(".progress-bar span").css('display', 'block');
             });
             this.destroy();
