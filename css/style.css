@@ -146,8 +146,8 @@ section {
     border-radius: 28px;
     padding: 12px 46px 12px 46px;
     text-transform: uppercase;
-    -webkit-transform: all .5s;
-    transform: all .5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .btn-home {
@@ -374,7 +374,7 @@ section {
 }
 
 .team-member-overlay {
-    background: rgb(33, 34, 38, 0.9);
+    background: rgba(33, 34, 38, 0.9);
     position: absolute;
     top: 0;
     left: 0;
@@ -567,7 +567,7 @@ preogress elements with top content */
 .service h5 {
     color: #f4c613;
     margin: 0 0 8px 0;
-    font-size: 18x;
+    font-size: 18px;
     line-height: 14px;
     text-transform: uppercase;
 }
@@ -613,8 +613,8 @@ preogress elements with top content */
     color: #f4c613; 
     border-bottom: 2px solid #f4c613;
     padding-bottom: 4px;
-    -webkit-transition: border-color 500 linear;
-    transition: border-color 500 linear;
+    -webkit-transition: border-color 0.5s linear;
+    transition: border-color 0.5s linear;
 }
 
 .service-tab img {
@@ -714,8 +714,8 @@ preogress elements with top content */
     right: 0;
     background: rgba(14, 14, 17, 0.9);
     opacity: 0;
-    -webkit-transform: all 0.5s ease;
-    transform: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
     cursor: pointer;
 }
 
@@ -735,8 +735,8 @@ preogress elements with top content */
     font-size: 30px;
     -webkit-transform: translateY(-20%);
     transform: translateY(-20%);
-    -webkit-transform: all 0.5s;
-    transform: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .portfolio-items-details span {
@@ -753,8 +753,8 @@ preogress elements with top content */
     text-transform: uppercase;
     -webkit-transform: translateY(20%);
     transform: translateY(20%);
-    -webkit-transform: all 0.5s;
-    transform: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 .portfolio-item:hover .portfolio-items-details h3 {
@@ -968,8 +968,8 @@ preogress elements with top content */
     color: #f4c613;
     font-size: 42px;
     margin: 0 0 6px 0;
-    -webkit-transform: all 0.4s linear;
-    transform: all 0.4s linear; 
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear; 
 }
 
 .stats-item h3 {

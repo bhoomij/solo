@@ -112,10 +112,6 @@
     .service-tab p {
         line-height: 20px;   
     }
-    
-    .service-tab {
-        min-height: 
-    }
 }
 
 /* Small Devices ( Portrait Tablets and Small Desktops) */
@@ -130,7 +126,7 @@
         font-size: 41px;
     }
     #home-text p {
-        fontsiz: 14px;;   
+        font-size: 14px;;   
     }
     
     /* Generic */
@@ -165,8 +161,8 @@
         color: #f4c613; 
         border-bottom: 2px solid #f4c613;
         padding-bottom: 4px;
-        -webkit-transition: border-color 500 linear;
-        transition: border-color 500 linear;
+        -webkit-transition: border-color 0.5s linear;
+        transition: border-color 0.5s linear;
     }
     
     /* Prices */
@@ -292,7 +288,7 @@
     /* Team */
     .skill h4 {
         line-height: 35px;
-        font-weight: 14px;
+        font-size: 14px;
     }
     
     /* Tech statement */
@@ -328,8 +324,8 @@
         color: #f4c613; 
         border-bottom: 2px solid #f4c613;
         padding-bottom: 4px;
-        -webkit-transition: border-color 500 linear;
-        transition: border-color 500 linear;
+        -webkit-transition: border-color 0.5s linear;
+        transition: border-color 0.5s linear;
     }
     .service-tab .tab-bg {
         text-align: center;
